@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<view class="top">
+   <swiper class="banner_boder" autoplay="true" interval="3000" vertical="true" circular="true">
+      <swiper-item>
+            <image class="banner" src="/image/python1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+            <image class="banner" src="/image/python2.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+            <image class="banner" src="/image/python3.jpg"></image>
+      </swiper-item>
+   </swiper>
+</view>
+<view>
+    <view class="content" hover-class="content_hover">
+      <view class="pic_box">
+        <image src="/image/python1.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view>
+          <navigator class="title" open-type="switchTab" url="/pages/list/list?pages=1">python 3秒钟入门到大神</navigator>
+        </view>
+        <text class="description">Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。</text>
+        <view class="time">
+                1991-05-01
+        </view> 
+      </view>
+    </view>
+    
+    <view class="content" hover-class="content_hover">
+      <view class="pic_box">
+        <image src="/image/python2.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view>
+          <navigator class="title" url="/pages/logs/logs">python 3秒钟入门到大神</navigator>
+        </view>
+        <text class="description">Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。</text>
+        <view class="time">
+                1991-05-01
+        </view> 
+      </view>
+    </view>
+
+    <view class="content" hover-class="content_hover">
+      <view class="pic_box">
+        <image src="/image/python3.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view>
+          <navigator class="title" url="/pages/logs/logs">python 3秒钟入门到大神</navigator>
+        </view>
+        <text class="description">Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。</text>
+        <view class="time">
+                1991-05-01
+        </view> 
+      </view>
+    </view>
+    <view class="content" hover-class="content_hover">
+      <view class="pic_box">
+        <image src="/image/python4.jpg"></image>
+      </view>
+      <view class="content_box">
+        <view>
+          <navigator class="title" url="/pages/logs/logs">python 3秒钟入门到大神</navigator>
+        </view>
+        <text class="description">Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。</text>
+        <view class="time">
+                1991-05-01
+        </view> 
+      </view>
+    </view>
+</view>
+
+

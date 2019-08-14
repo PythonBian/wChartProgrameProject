@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#011627",
+    "navigationBarTitleText": "大泽九章",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#EFFFE9",
+    "backgroundColor": "#011627",
+    "selectedColor": "#2EC4B6",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index_select.png",
+        "selectedIconPath": "image/index.png"
+      },
+      {
+        "text": "列表页",
+        "pagePath": "pages/list/list",
+        "iconPath": "image/list_select.png",
+        "selectedIconPath": "image/list.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/person/person",
+        "iconPath": "image/persion_select.png",
+        "selectedIconPath": "image/persion.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
