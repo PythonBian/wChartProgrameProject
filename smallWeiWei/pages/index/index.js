@@ -5,9 +5,7 @@ const app = getApp()
 Page({
   data: {
     motto: '大泽九章',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    article_list: app.globalData.article_list
   },
   //事件处理函数
   bindViewTap: function() {
@@ -15,7 +13,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  //页面加载完成 $(function(){})
   onLoad: function () {
+    //this.data.article_list = app.globalData.article_list
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

@@ -34,6 +34,33 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    article_list: [
+      {
+        "picture": "/image/python1.jpg",
+        "title": "python_10秒钟入门到大神",
+        "description": "ython 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。",
+        "time": "1991-01-01"
+      },
+      {
+        "picture": "/image/python2.jpg",
+        "title": "python_1.5年半神到跑路",
+        "description": "ython 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。",
+        "time": "1991-05-01"
+      },
+      {
+        "picture": "/image/python3.jpg",
+        "title": "python_3年一万到三万",
+        "description": "ython 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。",
+        "time": "1991-03-01"
+      },
+      {
+        "picture": "/image/python4.jpg",
+        "title": "python_5年挪威森林到地中海",
+        "description": "ython 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。",
+        "time": "1991-02-01"
+      },
+
+    ]
   }
 })
